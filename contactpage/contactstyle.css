@@ -1,0 +1,95 @@
+/* page background */
+
+html, body {
+    background: linear-gradient(to bottom, rgb(32, 55, 66), rgb(58, 81, 92));
+    background-position: absolute;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+
+.nav-logo {
+    border-radius: 5px;
+}
+
+#info-container {
+    background-color: rgba(95, 158, 160, 0.3);
+    width: 80%;
+    height: 100%;
+    margin-left: 10%;
+   
+    
+}
+
+.info {
+    padding: 30px 10%;
+    word-break: break-word;
+    
+}
+
+#mapcanvas {
+    height: 500px;
+    padding-top: 30px;
+    width: 80%;
+    margin-left: 10%;
+
+    
+}
+
+
+#mapcanvas p {
+    margin-bottom: 40px;
+}
+
+
+
+h3 {
+    color: white;
+    
+}
+
+p {
+    color: white;
+    text-align: justify;
+    padding-top: 30px;
+    font-size: 18px;
+}
+
+
+
+
+@media only screen and (min-width: 250px) {
+    #mapcanvas {
+        height: 200px;
+    }
+
+    #mapcancas p {
+        padding-top: 10px;
+    }
+
+    p { 
+        padding-top: 15px;
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-width: 500px) {
+    #mapcanvas {
+        height: 300px;
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    #mapcanvas {
+        height: 350px;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    #mapcanvas {
+        height: 400px;
+    }
+}

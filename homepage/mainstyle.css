@@ -1,0 +1,50 @@
+/* page background */
+
+html, body {
+  background: linear-gradient(to bottom, rgb(32, 55, 66), rgb(58, 81, 92));
+  background-position: absolute;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+  text-align: left;
+  font-family: 'Quicksand', sans-serif;
+
+}
+
+.nav-logo {
+  border-radius: 5px;
+}
+
+#tagline {
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+p {
+  color: white;
+  
+  text-align: center;
+}
+
+hr {
+  background-color: white;
+  width: 50%;
+  text-align: center;
+  noshade: noshade;
+  opacity: 0.4;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.carousel {
+  height: 500px;
+  margin-top: 40px;
+  background-color: rgba(95, 158, 160, 0.4); 
+}
+
+h3 {
+  text-align: center;
+  margin-top: 20px;
+}

@@ -1,0 +1,67 @@
+/* page background */
+
+html, body {
+    background: linear-gradient(to bottom, rgb(32, 55, 66), rgb(58, 81, 92));
+    background-position: absolute;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.nav-logo {
+    border-radius: 5px;
+}
+
+
+#info-container {
+    background-color: rgba(95, 158, 160, 0.3);
+    width: 80%;
+    height: 100%;
+    margin-left: 10%;
+    line-height: 40px;
+    
+}
+
+.info {
+    padding: 30px 10%;
+    
+    
+}
+
+h3 {
+    color: white;
+    
+}
+
+p {
+    color: white;
+    text-align: justify;
+    padding-top: 30px;
+    font-size: 18px;
+}
+
+#link {
+    color: white;
+    text-decoration: underline;
+}
+
+#link:hover {
+    color: white;
+}
+
+@media only screen and (max-width: 399px) {
+    #info-container {
+        
+        line-height: 25px;
+        
+    }
+}
+
+@media only screen and (max-width: 499px) {
+    #info-container {
+        
+        line-height: 30px;
+        
+    }
+}

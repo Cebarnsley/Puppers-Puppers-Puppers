@@ -1,0 +1,49 @@
+/* page background */
+
+
+html, body {
+    background: linear-gradient(to bottom, rgb(32, 55, 66), rgb(58, 81, 92));
+    background-position: absolute;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: auto;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.nav-logo {
+    border-radius: 5px;
+}
+
+#news-container {
+        background-color: rgba(95, 158, 160, 0.3);
+        width: 80%;
+        height: 100%;
+        margin-left: 10%;
+        padding-bottom: 15px;
+
+}
+
+h3 {
+    color: white;
+    padding: 30px 10%;
+}
+
+.media {
+    margin: 20px 5%;
+    background-color: white;
+    padding: 2% 2%;
+    height: auto;
+    border-radius: 5px;
+    
+}
+
+.logo {
+    border-radius: 5px;
+    width: 50px;
+}
+
+.news-photo {
+    padding: 2% 2%;
+    width: 100%;
+    border-radius: 20px;
+}
