@@ -17,6 +17,11 @@ html, body {
     border-radius: 5px;
 }
 
+.navbar {
+    position: fixed;
+    width: 100%;
+}
+
 
 #deck-container {
     background-color: rgba(95, 158, 160, 0.3);
@@ -33,12 +38,12 @@ html, body {
 }
 
 .card-deck {
-    padding: 10px 10px;
+    padding: 20px 35px;
     justify-content: center;
     flex-wrap: wrap;
-    margin-top: 30px;
-    margin-bottom: 60px;
-
+    margin-top: 60px;
+    margin-bottom: 90px;
+    padding-bottom: 90px;
 }
 
 .card {

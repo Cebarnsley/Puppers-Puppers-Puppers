@@ -14,6 +14,12 @@ html, body {
     border-radius: 5px;
 }
 
+.navbar {
+    position: fixed;
+    width: 100%;
+}
+
+
 #news-container {
         background-color: rgba(95, 158, 160, 0.3);
         width: 80%;
@@ -25,11 +31,12 @@ html, body {
 
 h3 {
     color: white;
-    padding: 30px 10%;
+    margin-top: 50px;
+    padding: 60px 10% 30px 10%;
 }
 
 .media {
-    margin: 20px 5%;
+    margin: 20px 10%;
     background-color: white;
     padding: 2% 2%;
     height: auto;
@@ -44,6 +51,6 @@ h3 {
 
 .news-photo {
     padding: 2% 2%;
-    width: 100%;
-    border-radius: 20px;
+    max-width: 100%;
+    
 }

@@ -9,12 +9,12 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="aboutstyle.css">
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
-    <script src="script.js"></script>
+    <script src="about.js"></script>
 </head>
-<body>
+<body id="body">
 
     <!-- NavBar -->
-    <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
+    <nav  id="navbar" class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
 
         <!-- Logo and Brand Name -->
         <a class="navbar-brand" href="../homepage/index.html">
@@ -56,15 +56,19 @@
         </div>
       </nav>
 
+      <!-- toggle day/night -->
+
+      <button id="button" onclick="toggleMode()" >Day/Night</button>
+
       <!-- Info -->
 
       <div id="info-container">
 
         <div class="info">
-          <h3>About Us</h3>
-          <p>Here at Puppers, Puppers, Puppers, we are determined to help you find your perfect pupper pal. 
+          <h3 id="heading-info">About Us</h3>
+          <p id="p-info">Here at Puppers, Puppers, Puppers, we are determined to help you find your perfect pupper pal. 
             We believe that allowing the puppers to choose their new companions forges greater friendships. 
-            If you are ready to em-bark on a new experience in pupper purchasing, <a href="../contactpage/contact.html" id="link">contact us</a> to arrange an appointment today. 
+            If you are ready to em-bark on a new experience in pupper purchasing, <a id="a-info" href="../contactpage/contact.html" >contact us</a> to arrange an appointment today. 
             Hope to hear from you soon!</p>
         </div>
 
