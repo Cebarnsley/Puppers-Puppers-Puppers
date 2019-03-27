@@ -10,6 +10,7 @@ html, body {
     height: 100%;
     text-align: left;
     font-family: 'Quicksand', sans-serif;
+    overflow: auto;
 
 }
 
@@ -17,10 +18,7 @@ html, body {
     border-radius: 5px;
 }
 
-.navbar {
-    position: fixed;
-    width: 100%;
-}
+
 
 
 #deck-container {
@@ -33,7 +31,7 @@ html, body {
     flex-wrap: wrap;
     justify-content: center;
     align-content: stretch;
-   
+   overflow: auto;
 
 }
 
@@ -98,3 +96,44 @@ html, body {
         column-count: 5;
     }
 }
+
+/* toggle button */
+
+
+#button {
+    text-align: center; 
+    /* margin-top:60px; */
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    padding: 5px;
+    position: absolute;
+    margin: 10px 10px;
+  }
+  
+  #button:focus {
+    border: none;
+    outline: none;
+  }
+  
+  /* day mode styles */
+  
+  /* background */
+  
+  .dayMode {
+    background: linear-gradient(to top, rgb(221, 232, 238), rgb(141, 170, 184));
+    background-position: absolute;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    
+    
+  }
+
+  /* button */
+  
+  .button-day {
+   background-color: rgb(136, 134, 133);
+   color: white;
+  }
+  

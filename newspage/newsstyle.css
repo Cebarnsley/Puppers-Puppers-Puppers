@@ -54,3 +54,51 @@ h3 {
     max-width: 100%;
     
 }
+
+/* toggle button */
+
+#button {
+    text-align: center; 
+    /* margin-top:60px; */
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    padding: 5px;
+    position: absolute;
+    margin: 10px 10px;
+  }
+  
+  #button:focus {
+    border: none;
+    outline: none;
+  }
+  
+
+/* day mode styles */
+
+/* background */
+
+.dayMode {
+    background: linear-gradient(to top, rgb(221, 232, 238), rgb(141, 170, 184));
+    background-position: absolute;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    
+    
+  }
+  
+  /* text */
+  
+  .news-day {
+    color: rgb(42, 71, 71);
+    text-decoration: none;
+  }
+
+  /* button */
+
+.button-day {
+    background-color: rgb(136, 134, 133);
+    color: white;
+   }
+  

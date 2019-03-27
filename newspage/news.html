@@ -5,14 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Puppers Puppers Puppers</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="newsstyle.css">
-    
-    <script src="script.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <script src="news.js"></script>
 </head>
-<body>
+<body id="body">
 
     <!-- NavBar -->
     <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
@@ -57,13 +55,17 @@
         </div>
       </nav>
 
+      <!-- day/night toggle -->
+
+      <button id="button" onclick="toggleMode()">Day/Night</button>
+
       <!-- news container -->
 
       <div id="news-container">
 
         <!-- Heading -->
 
-        <h3> News </h3>
+        <h3 id="h-news"> News </h3>
 
         <!-- News 8 -->
 

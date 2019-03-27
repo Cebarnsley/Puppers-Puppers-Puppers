@@ -18,9 +18,10 @@ html, body {
 #info-container {
     background-color: rgba(95, 158, 160, 0.3);
     width: 80%;
-    /* height: 100%; */
+    height: auto;
     margin-left: 10%;
     line-height: 40px;
+    overflow: auto;
     
 }
 
@@ -88,6 +89,8 @@ p {
     }
 }
 
+/* toggle button */
+
 #button {
     border: none;
     outline: none;
@@ -102,6 +105,10 @@ p {
     outline: none;
 }
 
+/* day mode styles */
+
+/* background */
+
 .dayMode {
     background: linear-gradient(to top, rgb(221, 232, 238), rgb(141, 170, 184));
     background-position: absolute;
@@ -111,13 +118,16 @@ p {
 
 }
 
-
+/* text */
 
 .info-day {
     color: rgb(33, 56, 56);
     text-decoration: none;
 }
 
-.button-day {
+/* button */
 
-}
+.button-day {
+    background-color: rgb(136, 134, 133);
+    color: white;
+   }
