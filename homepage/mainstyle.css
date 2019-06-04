@@ -85,10 +85,12 @@ p {
   padding: 10px 10px;
   border-radius: 20px;
   margin-bottom: 20px;
+  border-style: solid;
+  border-color: white;
 }
 
 .button:hover {
-  background-color: rgb(235, 230, 230); 
+  background-color: rgb(255, 255, 255); 
   text-decoration: none;
   color: rgb(13, 14, 14);
 }
@@ -202,20 +204,16 @@ p {
 
 
 #button {
-  text-align: center; 
-  /* margin-top:60px; */
-  border: none;
+  text-align: center;
   outline: none;
   border-radius: 20px;
   padding: 5px;
-  position: absolute;
   margin: 10px 10px;
+  border-style: solid;
+ border-color: white;
 }
 
-#button:focus {
-  border: none;
-  outline: none;
-}
+
 
 /* day mode styles */
 
@@ -242,6 +240,8 @@ p {
 /* button */
 
 .button-day {
- background-color: rgb(136, 134, 133);
+ background-color: rgb(42, 71, 71);
  color: white;
+ border-style: solid;
+ border-color: white;
 }

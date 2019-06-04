@@ -101,20 +101,16 @@ html, body {
 
 
 #button {
-    text-align: center; 
-    /* margin-top:60px; */
     border: none;
     outline: none;
     border-radius: 20px;
     padding: 5px;
-    position: absolute;
     margin: 10px 10px;
-  }
+    border-style: solid;
+    border-color: white;
+}
   
-  #button:focus {
-    border: none;
-    outline: none;
-  }
+  
   
   /* day mode styles */
   
@@ -133,7 +129,9 @@ html, body {
   /* button */
   
   .button-day {
-   background-color: rgb(136, 134, 133);
-   color: white;
-  }
+    background-color: rgb(42, 71, 71);
+    color: white;
+    border-style: solid;
+    border-color: white;
+   }
   
