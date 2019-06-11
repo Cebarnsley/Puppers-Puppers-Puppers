@@ -15,7 +15,7 @@
   "bugs": {
     "url": "https://github.com/Cebarnsley/Puppers-Puppers-Puppers/issues"
   },
-  "homepage": "https://github.com/Cebarnsley/Puppers-Puppers-Puppers/",
+  "homepage": "https://github.com/Cebarnsley/Puppers-Puppers-Puppers",
   "devDependencies": {
     "gh-pages": "^2.0.1"
   }
