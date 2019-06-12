@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -15,8 +17,11 @@
   "bugs": {
     "url": "https://github.com/Cebarnsley/Puppers-Puppers-Puppers/issues"
   },
-  "homepage": "https://github.com/Cebarnsley/Puppers-Puppers-Puppers",
+  "homepage": "https://cebarnsley.github.io/Puppers-Puppers-Puppers/homepage/index.html",
   "devDependencies": {
     "gh-pages": "^2.0.1"
+  },
+  "dependencies": {
+    
   }
 }
